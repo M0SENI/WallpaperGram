@@ -29,40 +29,17 @@
 .img1{
     border-radius: 20px;
 }
-.main3{
-    position: relative;
-}
-.main3>h3{
-    position: absolute;
-    right: 46%;
-}
-.main3>p:nth-of-type(1){
-    position: absolute;
-    right: 2%;
-    top: 20%;
-}
-.main3>p:nth-of-type(2){
-    right: 58%;
-    top: 26%;
-
-
+.main3-text{
+    float: right;
+    display: block;
 }
 
-.main3>p:nth-of-type(3){
-    right: 54.3%;
-    top: 30%;
 
-
-}
 .main3>img{
     box-shadow: black 0 0 10px;
 
 }
-.btn-download{
 
-    right: 59%;
-    top: 35%;
-}
 
 .first-nav-edited{
     background-color: #ebe7e7;
@@ -76,4 +53,52 @@
 .first-nav-edited>section:hover{
     color: purple;
 
+}
+.main4{
+    direction: rtl;
+}
+
+.main4-text{
+    float: left;
+    display: block;
+    position: relative;
+    direction: ltr;
+}
+.main4>img{
+    box-shadow: black 0 0 10px;
+
+}
+
+@media screen and (min-width:1000px) {
+    .main3-text>p:nth-of-type(1){
+    font-size: 100%;
+    font-weight: 900;
+    }
+
+    .main4-text>p:nth-of-type(1){
+        font-size: 100%;
+        font-weight: 900;
+    }
+
+}
+
+
+@media screen and (min-width:760px) {
+    .main3-text>p:nth-of-type(1){
+        font-size: x-large;
+        }
+    .main4-text>p:nth-of-type(1){
+        font-size: x-large;
+    }
+
+}
+
+@media screen and (max-width:760px) {
+    .main3-text>p:nth-of-type(1){
+        font-size: medium;
+        }
+
+    .main4-text>p:nth-of-type(1){
+        font-size: medium;
+    }
 }

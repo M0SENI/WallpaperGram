@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mosen test</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
     <link rel="stylesheet" href="WallpaperGram.css"/>
     <script src="Jquery/JqueryDevelopment.js"></script>
 </head>
 <body class="bg-dark bg-linear">
-    <nav class="container-fluid bg-linear navbar first-nav d-flex justify-content-evenly shadow-lg sticky-top">
+    <nav class="container-fluid bg-linear navbar first-nav d-flex justify-content-evenly shadow-lg fixed-top">
         <section class="fs-5">Gallery</section>
         <section class="fs-5">Product</section>
         <section class="fs-5">About</section>
@@ -32,20 +32,27 @@
             </p>
             <img src="Images/WPs.jpg" class="img-fluid">
         </div>
-        <div class="main3 container-fluid bg-linear position-relative">
-            <h2 class="text-center display-3">
-                Download now!
-            </h2>
-            <h3 class="position-absolute fs-1 mt-4 text-center">
-                First Wallpaper
-            </h3>
-            <p class="position-absolute mt-2 text-dark fs-4">The First Wallpaper for iphones 14 , 14 plus , 14promax , 15 , 15plus  ,15promax</p>
-            <p class="position-absolute text-dark text-muted">Quality : 1080p</p>
-            <p class="position-absolute text-dark text-muted">Updated on yesterday</p>
-            <img src="Images/FirstWP.PNG" class="img-fluid w-25 img1 mt-3">
-            <a href="Images/FirstWP.PNG" download="Images/FirstWP.PNG" class="btn btn-download btn-dark text-light position-absolute">Download</a>
+        <div class="main3 bg-linear">
+                <h2 class="text-center display-3">Download now!</h2>
+                <h3 class="fs-1 mt-1 text-center">First Wallpaper</h3>
+            <div class="main3-text container w-50 h-25 mx-0">
+                <p class="text-dark text-end px-0">First wallpaper for iphones 14 , 14 plus , 14promax , 15 , 15plus  ,15promax</p>
+                <p class=" text-dark text-muted text-end mb-1">Quality : 1080p</p>
+                <p class="text-dark text-muted mt-sm-1">Updated on yesterday</p>
+                <a href="Images/FirstWP.PNG" download="Images/FirstWP.PNG" class="btn btn-download btn-fluid btn-dark text-light">Download</a>
+            </div>
+            <img src="Images/FirstWP.PNG" class="img-fluid w-25 img1">
+        </div>
+        <div class="main4 bg-linear">
+            <h3 class="fs-1 mt-1 text-center mt-4 mb-1">second Wallpaper</h3>
+            <div class="main4-text container w-50 mx-0">
+                <p class="text-dark text-end px-0">second wallpaper for iphones 14 , 14 plus , 14promax , 15 , 15plus  ,15promax</p>
+                <p class=" text-dark text-muted text-end mb-1 mt-2">Quality : 1080p</p>
+                <p class="text-dark text-muted text-end mb-0 mt-2">Updated on yesterday</p>
+                <a href="Images/SecondWP.PNG" download="SecondWP" class="btn btn-download2 btn-dark text-light mt-2 text-center">Download</a>
+            </div>
+            <img src="Images/SecondWP.PNG" class="img-fluid w-25 img1">
         </div>
     </div>
     <script src="WallpaperGram.js"></script>
 </body>
-</html>
