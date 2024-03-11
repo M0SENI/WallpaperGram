@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.first-nav>section{
+    color: white;
+
+}
+.first-nav>section:hover{
+    color: purple;
+    transition: all 300ms linear;
+    cursor: pointer;
+}
+
+.first-nav>section:active{
+    color: purple;
+    cursor: pointer;
+}/*background-color: #f1eeee;*/
+.main{
+    margin-top: 5%;
+    border-radius: 20px;
+    background-color: #ebe7e7;
+}
+.img1{
+    border-radius: 20px;
+}
+.main3{
+    position: relative;
+}
+.main3>h3{
+    position: absolute;
+    right: 20%;
+}
+.main3>p{
+    position: absolute;
+    right: 20%;
+}
+.main3>img{
+    box-shadow: black 0 0 10px;
+
+}
